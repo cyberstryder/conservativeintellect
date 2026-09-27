@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Conservative Intellect — Big Thoughts for Big Patriots</title>
+<meta name="description" content="Conservative Intellect: America's most intellectual news source. All the news that's fit to be furious about. (Satire.)">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wrap">
+    <span id="today">September 26, 2026</span>
+    <span class="wink">Est. 2026 &middot; Definitely real news &middot; Trust us</span>
+  </div>
+</div>
+
+<header class="masthead">
+  <div class="kicker">America&rsquo;s Most Intellectual News Source</div>
+  <h1><a href="index.html">Conservative Intellect</a></h1>
+  <div class="tagline">Big Thoughts for Big Patriots&trade;</div>
+  <nav>
+    <a href="index.html" class="active">Home</a>
+    <a href="index.html#latest">Latest</a>
+    <a href="about.html">About</a>
+  </nav>
+</header>
+
+<main class="wrap">
+
+  <!-- Featured story, rendered from js/articles.js -->
+  <section class="hero" id="featured"></section>
+
+  <div class="section-head" id="latest">
+    <h2>The Latest Outrage</h2>
+    <span class="rule-note">Updated whenever we feel like it</span>
+  </div>
+
+  <!-- Article cards, rendered from js/articles.js -->
+  <section class="grid" id="article-grid"></section>
+
+</main>
+
+<section class="cta-strip">
+  <h2>Never Miss an Outrage Again</h2>
+  <p>Join the Conservative Intellect dispatch and receive our finest fury directly in your inbox, moments before it becomes irrelevant.</p>
+  <button class="fake-btn" onclick="this.textContent='You\u2019re In. Probably.';this.disabled=true;">Subscribe Free*</button>
+  <small>*Subscription does not exist. Neither does the newsletter. The fury, however, is eternal.</small>
+</section>
+
+<footer>
+  <div class="foot-grid">
+    <div>
+      <h3>Conservative Intellect</h3>
+      <p>Reporting the stories the mainstream media is too cowardly, too biased, or too literate to cover.</p>
+    </div>
+    <div>
+      <h3>Sections</h3>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="index.html#latest">Latest Outrage</a>
+        <a href="about.html">About Us</a>
+      </nav>
+    </div>
+    <div>
+      <h3>Fine Print</h3>
+      <nav>
+        <a href="about.html">What Is This Place?</a>
+        <a href="about.html">Correction Policy (We Never Err)</a>
+        <a href="about.html">Contact (Don&rsquo;t)</a>
+      </nav>
+    </div>
+  </div>
+  <div class="disclaimer">
+    <strong>Satire disclaimer:</strong> Conservative Intellect is a work of parody. Every article on this site is
+    fictional satire written to lampoon over-the-top political tropes. Any resemblance to actual events,
+    real persons, or genuinely reasonable opinions is purely coincidental &mdash; and frankly, a little sad.
+  </div>
+</footer>
+
+<script src="js/articles.js"></script>
+<script>
+(function () {
+  // Render the featured story (newest article) and the rest as cards.
+  var featured = document.getElementById('featured');
+  var grid = document.getElementById('article-grid');
+  var badge = function (a) {
+    return a.sample ? '<span class="sample-badge">Sample</span>' : '';
+  };
+
+  var first = ARTICLES[0];
+  featured.innerHTML =
+    '<div class="hero-art ' + first.art + '"><span class="glyph">' + first.glyph + '</span></div>' +
+    '<div class="hero-body">' +
+      '<span class="kicker-label">Featured Outrage</span>' +
+      '<h2><a href="articles/' + first.slug + '.html">' + first.title + '</a>' + badge(first) + '</h2>' +
+      '<div class="byline"><strong>By ' + first.author + '</strong> &middot; ' + first.date + '</div>' +
+      '<p class="excerpt">' + first.excerpt + '</p>' +
+      '<a class="read-more" href="articles/' + first.slug + '.html">Read the Full Story &rarr;</a>' +
+    '</div>';
+
+  var html = '';
+  for (var i = 1; i < ARTICLES.length; i++) {
+    var a = ARTICLES[i];
+    html +=
+      '<article class="card">' +
+        '<div class="card-art ' + a.art + '"><span class="glyph">' + a.glyph + '</span></div>' +
+        '<div class="card-body">' +
+          '<span class="kicker-label">' + a.kicker + '</span>' +
+          '<h3><a href="articles/' + a.slug + '.html">' + a.title + '</a>' + badge(a) + '</h3>' +
+          '<p>' + a.excerpt + '</p>' +
+          '<div class="byline"><strong>By ' + a.author + '</strong> &middot; ' + a.date + '</div>' +
+        '</div>' +
+      '</article>';
+  }
+  grid.innerHTML = html;
+
+  // Keep the topbar date fresh-ish without a build step.
+  try {
+    var d = new Date();
+    var months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+    document.getElementById('today').textContent =
+      months[d.getMonth()] + ' ' + d.getDate() + ', ' + d.getFullYear();
+  } catch (e) { /* leave the static date */ }
+})();
+</script>
+</body>
+</html>
