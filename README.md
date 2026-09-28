@@ -8,11 +8,13 @@ Ready to deploy to Cloudflare Pages, Netlify, or any static host.
 ```
 satire-site/
 ├── index.html                  # Homepage (featured story + latest grid, rendered from articles.js)
+├── lies.html                   # Lie Counter page (running total + leaderboard + entries, rendered from lies.js)
 ├── about.html                  # About page — clearly states the site is satire
 ├── css/
 │   └── style.css               # All styles: broadsheet-inspired, responsive, self-contained
 ├── js/
-│   └── articles.js             # Article index: the single list the homepage + article pages read
+│   ├── articles.js             # Article index: the single list the homepage + article pages read
+│   └── lies.js                 # Lie Counter entries: the single list lies.html reads
 └── articles/
     ├── template.html           # Blank template for new articles (start here)
     ├── shadow-woke-sun-investigation.html   # SAMPLE
@@ -65,6 +67,28 @@ featured story and the rest in the "Latest" grid, and every article page's
 
 **Removing a sample article:** delete its `.html` file and remove its entry
 from `ARTICLES` in `js/articles.js`.
+
+## How to log a new lie
+
+Add one entry at the **top** of the `LIES` array in `js/lies.js` (newest first):
+
+```js
+{
+  who: "Name Here",
+  date: "October 3, 2026",
+  claim: "The false statement, in their own words where possible.",
+  context: "Where and how the claim was made.",
+  reality: "The factual record, stated plainly.",
+  sources: [
+    { label: "Outlet — what this source documents", url: "https://…" }
+  ]
+},
+```
+
+The Lie Counter page picks it up automatically: the big number, the
+leaderboard, and the entry list all render from that one array. Keep entries
+to verifiably false claims of fact (not opinions or predictions), and always
+include at least one source.
 
 ## Previewing locally
 

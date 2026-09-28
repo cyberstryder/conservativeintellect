@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Lie Counter — Conservative Intellect</title>
+<meta name="description" content="The Conservative Intellect Lie Counter: a running, sourced tally of the outright falsehoods told by America's loudest patriots. (The facts are real. The shock is performative.)">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wrap">
+    <span id="today">September 28, 2026</span>
+    <span class="wink">Est. 2026 &middot; Definitely real news &middot; Trust us</span>
+  </div>
+</div>
+
+<header class="masthead">
+  <div class="kicker">America&rsquo;s Most Intellectual News Source</div>
+  <h1><a href="index.html">Conservative Intellect</a></h1>
+  <div class="tagline">Big Thoughts for Big Patriots&trade;</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="index.html#latest">Latest</a>
+    <a href="lies.html" class="active">Lie Counter</a>
+    <a href="about.html">About</a>
+  </nav>
+</header>
+
+<main class="wrap">
+
+  <section class="counter-hero">
+    <div class="counter-kicker">The Official Conservative Intellect</div>
+    <h2>Lie Counter</h2>
+    <p class="counter-lede">Every outright falsehood from America&rsquo;s loudest patriots, logged, dated, and footnoted &mdash; because somebody has to do the reading.</p>
+    <div class="counter-number" id="counter-number">0</div>
+    <div class="counter-caption" id="counter-caption">documented lies and counting</div>
+  </section>
+
+  <div class="section-head">
+    <h2>The Leaderboard</h2>
+    <span class="rule-note">Ranked by volume, like all great American competitions</span>
+  </div>
+  <section class="leaderboard" id="leaderboard"></section>
+
+  <div class="section-head">
+    <h2>The Record</h2>
+    <span class="rule-note">Newest first &middot; Every entry sourced</span>
+  </div>
+  <section class="lie-list" id="lie-list"></section>
+
+  <p class="counter-fineprint">
+    Entries are limited to verifiably false claims of fact &mdash; not opinions, predictions, or things
+    we simply dislike. Each entry links its sources so you can check our work, which is more than
+    can be said for the entries themselves.
+  </p>
+
+</main>
+
+<footer>
+  <div class="foot-grid">
+    <div>
+      <h3>Conservative Intellect</h3>
+      <p>Reporting the stories the mainstream media is too cowardly, too biased, or too literate to cover.</p>
+    </div>
+    <div>
+      <h3>Sections</h3>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="index.html#latest">Latest Outrage</a>
+        <a href="lies.html">Lie Counter</a>
+        <a href="about.html">About Us</a>
+      </nav>
+    </div>
+    <div>
+      <h3>Fine Print</h3>
+      <nav>
+        <a href="about.html">What Is This Place?</a>
+        <a href="about.html">Correction Policy (We Never Err)</a>
+        <a href="about.html">Contact (Don&rsquo;t)</a>
+      </nav>
+    </div>
+  </div>
+  <div class="disclaimer">
+    <strong>Satire disclaimer:</strong> Conservative Intellect is a work of parody. The Lie Counter&rsquo;s
+    commentary is satirical, but the claims and rebuttals documented here are presented as factual
+    and sourced. Any resemblance to actual events, real persons, or genuinely reasonable opinions
+    is purely coincidental &mdash; and frankly, a little sad.
+  </div>
+</footer>
+
+<script src="js/lies.js"></script>
+<script>
+(function () {
+  var esc = function (s) {
+    return String(s)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;");
+  };
+
+  // --- The big number ---
+  document.getElementById("counter-number").textContent = LIES.length;
+  document.getElementById("counter-caption").textContent =
+    LIES.length === 1 ? "documented lie and counting" : "documented lies and counting";
+
+  // --- Leaderboard ---
+  var counts = {};
+  LIES.forEach(function (l) { counts[l.who] = (counts[l.who] || 0) + 1; });
+  var ranked = Object.keys(counts).map(function (who) {
+    return { who: who, n: counts[who] };
+  }).sort(function (a, b) { return b.n - a.n || (a.who < b.who ? -1 : 1); });
+
+  var max = ranked.length ? ranked[0].n : 0;
+  var lb = "";
+  ranked.forEach(function (r, i) {
+    var pct = max ? Math.round((r.n / max) * 100) : 0;
+    lb +=
+      '<div class="lb-row">' +
+        '<span class="lb-rank">' + (i + 1) + '</span>' +
+        '<span class="lb-name">' + esc(r.who) + '</span>' +
+        '<span class="lb-bar"><span class="lb-fill" style="width:' + pct + '%"></span></span>' +
+        '<span class="lb-count">' + r.n + (r.n === 1 ? " lie" : " lies") + '</span>' +
+      '</div>';
+  });
+  document.getElementById("leaderboard").innerHTML = lb;
+
+  // --- Entries ---
+  var html = "";
+  LIES.forEach(function (l, i) {
+    var sources = "";
+    l.sources.forEach(function (s) {
+      sources += '<li><a href="' + s.url + '" target="_blank" rel="noopener">' + esc(s.label) + '</a></li>';
+    });
+    html +=
+      '<article class="lie-entry">' +
+        '<div class="lie-num">Lie #' + (LIES.length - i) + '</div>' +
+        '<div class="lie-head"><strong>' + esc(l.who) + '</strong><span class="lie-date">' + esc(l.date) + '</span></div>' +
+        '<blockquote class="lie-claim">' + esc(l.claim) + '</blockquote>' +
+        '<p class="lie-context">' + esc(l.context) + '</p>' +
+        '<div class="lie-reality"><span class="reality-label">The record</span><p>' + esc(l.reality) + '</p></div>' +
+        '<div class="lie-sources"><span class="sources-label">Sources</span><ul>' + sources + '</ul></div>' +
+      '</article>';
+  });
+  document.getElementById("lie-list").innerHTML = html;
+
+  // Keep the topbar date fresh-ish without a build step.
+  try {
+    var d = new Date();
+    var months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+    document.getElementById('today').textContent =
+      months[d.getMonth()] + ' ' + d.getDate() + ', ' + d.getFullYear();
+  } catch (e) { /* leave the static date */ }
+})();
+</script>
+</body>
+</html>
