@@ -21,6 +21,18 @@
 
 const ARTICLES = [
   {
+    slug: "measles-detectives-border",
+    kicker: "Freedom Watch",
+    title: "America Loses Measles-Free Status After 26 Years; Internet Detectives Trace Outbreak to Tens of Millions of Migrants, 18 of Whom Had Measles",
+    excerpt: "The US lost its measles elimination status after 26 years. Reddit\u2019s finest epidemiologists solved the case in minutes: tens of millions of migrants. The CDC counted 18 international visitors among 5,412 cases.",
+    author: "Biff Carrington",
+    date: "November 18, 2026",
+    art: "art-red",
+    glyph: "\U0001f9a0",
+    tags: ["measles", "detectives", "public health"],
+    sample: false
+  },
+  {
     slug: "gas-prices-defeat-autumn",
     kicker: "Freedom Watch",
     title: "Gas Prices Fall for Eighth Straight Week; Congresswoman Takes Credit, Defeats Autumn",
