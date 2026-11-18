@@ -16,6 +16,18 @@
 const LIES = [
   {
     who: "Marjorie Taylor Greene",
+    date: "November 18, 2026",
+    claim: "\u201CThe price of gas dropped after the election because you got whooped in the midterms BECAUSE YOU have been psychotically threatening to basically nuke Iran. So the market reacted.\u201D",
+    context: "Posted on X, November 18, 2026.",
+    reality: "Pump prices peaked September 21 at $4.478 (EIA) and fell for weeks before the election on the annual winter-blend switch, refinery output, and seasonal demand \u2014 a pattern GasBuddy\u2019s Patrick De Haan notes has repeated in the 30 days before nearly every election since 2006, and he calls the election framing \u2018a myth.\u2019 Crude\u2019s post-election drop was driven by expectations the Iran war would wind down \u2014 the opposite of the mechanism claimed.",
+    sources: [
+      { label: "IndyStar \u2014 Did midterm election results lower U.S. gas prices with \u2018blue wave\u2019?", url: "https://www.indystar.com/story/news/politics/2026/11/10/did-midterm-election-results-lower-us-gas-prices-with-blue-wave-usa-gas-prices-near-me-thanksgiving/92704225007/" },
+      { label: "The Oklahoman \u2014 Gas prices are falling nationwide, but don\u2019t credit the election", url: "https://www.oklahoman.com/story/news/state/2026/11/12/gas-prices-in-oklahoma-falling-from-near-record-highs/92727987007/" },
+      { label: "Energy News Beat \u2014 Gas Fell Below $4. The Slide Started in September.", url: "https://sandstonegroup.us/gas-fell-below-4-the-slide-started-in-september/" }
+    ]
+  },
+  {
+    who: "Marjorie Taylor Greene",
     date: "August 16, 2026",
     claim: "\u201CThey are discussing using nuclear weapons on Iran in strategy meetings. Yes you read that correctly. It\u2019s real. I\u2019m not speculating, I know.\u201D",
     context: "Posted on X, August 16, 2026.",

@@ -21,6 +21,18 @@
 
 const ARTICLES = [
   {
+    slug: "gas-prices-defeat-autumn",
+    kicker: "Freedom Watch",
+    title: "Gas Prices Fall for Eighth Straight Week; Congresswoman Takes Credit, Defeats Autumn",
+    excerpt: "Rep. Marjorie Taylor Greene explains that gasoline got cheaper because Democrats got whooped and Iran got threatened. The gasoline, which had been falling in price since September, was unavailable for comment.",
+    author: "Chip Hollister",
+    date: "November 18, 2026",
+    art: "art-green",
+    glyph: "\u26fd",
+    tags: ["gas prices", "the market", "autumn"],
+    sample: false
+  },
+  {
     slug: "shadow-woke-sun-investigation",
     kicker: "Freedom Watch",
     title: "Local Man Discovers His Own Shadow Is \u2018Woke,\u2019 Demands Sun Be Investigated",
