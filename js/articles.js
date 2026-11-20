@@ -21,6 +21,18 @@
 
 const ARTICLES = [
   {
+    slug: "lindell-sues-counting-texas",
+    kicker: "Freedom Watch",
+    title: "Pillow Magnate Sues Counting Itself After Texas Votes Go \u201cBackwards\u201d All the Way to a Typo",
+    excerpt: "Mike Lindell has uncovered thousands of backwards vote counts and more votes than voters in Texas \u2014 a state where 9.85 million of 19 million registered voters cast ballots. The backwards count was a TV graphic typo.",
+    author: "Chip Hollister",
+    date: "November 20, 2026",
+    art: "art-purple",
+    glyph: "\u2696",
+    tags: ["texas", "counting", "lawsuits"],
+    sample: false
+  },
+  {
     slug: "measles-detectives-border",
     kicker: "Freedom Watch",
     title: "America Loses Measles-Free Status After 26 Years; Internet Detectives Trace Outbreak to Tens of Millions of Migrants, 18 of Whom Had Measles",

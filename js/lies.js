@@ -15,6 +15,18 @@
 
 const LIES = [
   {
+    who: "Mike Lindell",
+    date: "November 19, 2026",
+    claim: "\u201CWe\u2019ve uncovered thousands of examples of vote counts going BACKWARDS and hundreds of cases where reported votes exceed the number of voters\u201D \u2014 and \u201CTHEY STOLE TEXAS.\u201D",
+    context: "Posted on X, November 19\u201320, 2026, announcing a class-action lawsuit against voting machine companies over the 2026 Texas midterm results.",
+    reality: "9.85 million Texans voted out of ~19 million registered (51.6% turnout, below 2018) \u2014 no precinct reported more votes than voters, and the \u201C20 million found votes\u201D variant is arithmetically impossible. The marquee \u201Cbackwards\u201D count was a dropped digit in an NBC graphic (22,403 for 224,403), flagged on air and corrected within minutes. Governor Greg Abbott congratulated the Democratic winner of his own race, and both losing Texas Republicans conceded.",
+    sources: [
+      { label: "Lead Stories \u2014 KornackiCam fact check", url: "https://leadstories.com/hoax-alert/2026/11/fact-check-nbc-kornackicam-result-does-not-prove-fraud-talarico-briefly-shown-with-91-point-9-percent-of-tarrant-county-votes.html" },
+      { label: "MEAWW \u2014 Did Texas find 20M new fraudulent votes?", url: "https://news.meaww.com/fact-check-did-texas-find-20m-new-fraudulent-votes-that-flipped-the-state-blue" },
+      { label: "CandidDragon \u2014 How Texas Flipped Statewide in 2026", url: "https://candiddragon.com/texas-2026-midterm-turnout-oddity-why-its-being-questioned/" }
+    ]
+  },
+  {
     who: "Marjorie Taylor Greene",
     date: "November 18, 2026",
     claim: "\u201CThe price of gas dropped after the election because you got whooped in the midterms BECAUSE YOU have been psychotically threatening to basically nuke Iran. So the market reacted.\u201D",
