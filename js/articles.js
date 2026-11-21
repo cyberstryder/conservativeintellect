@@ -21,6 +21,18 @@
 
 const ARTICLES = [
   {
+    slug: "ukraine-started-it",
+    kicker: "Freedom Watch",
+    title: "Ukraine Started the War It Was Invaded In, Internet Concludes; the Invading, Records Show, Was Russia\u2019s",
+    excerpt: "Hours after Russian missiles struck Kyiv again, the internet\u2019s foremost war historians reached a finding, awarded eight times: Ukraine started this. The record \u2014 Crimea 2014, February 24, 2022, a 141\u20135 UN vote \u2014 disagrees.",
+    author: "Chip Hollister",
+    date: "November 21, 2026",
+    art: "art-gold",
+    glyph: "\u2694",
+    tags: ["ukraine", "russia", "comment sections"],
+    sample: false
+  },
+  {
     slug: "massie-14500-month-no-show",
     kicker: "Freedom Watch",
     title: "House Adjourns Early for Lack of Members, Then Begs Members to Show Up",
