@@ -15,6 +15,18 @@
 
 const LIES = [
   {
+    who: "Laura Loomer",
+    date: "November 21, 2026",
+    claim: "\u201CAbdul El-Sayed is a Muslim Brotherhood operative. He signed a literal pledge in support of the Muslim Brotherhood, a designated Islamic terrorist organization.\u201D",
+    context: "Posted on X, November 21, 2026, objecting to a possible White House meeting with Senator-elect Abdul El-Sayed.",
+    reality: "No credible record shows El-Sayed is a member or operative of the Muslim Brotherhood, and he has repeatedly denied and disavowed it \u2014 on camera, \u201CSure, yeah, absolutely.\u201D The 2012 statement he is tied to backed Egypt\u2019s elected President Mohamed Morsi; PolitiFact and Bridge Michigan both concluded it was not a pledge to the Brotherhood as an organization, Bridge Michigan found no evidence of a pledge or ties, and PolitiFact rated the same \u201Cjihadist Muslim Brotherhood member\u201D claim \u201CPants on Fire\u201D during the campaign.",
+    sources: [
+      { label: "PolitiFact \u2014 El-Sayed Brotherhood fact checks (Oct 2026)", url: "https://www.politifact.com" },
+      { label: "Bridge Michigan \u2014 fact check: no evidence of a pledge or ties", url: "https://www.bridgemi.com" },
+      { label: "U.S. Department of State \u2014 Terrorist Designations of Muslim Brotherhood Chapters (Jan 13, 2026)", url: "https://www.state.gov" }
+    ]
+  },
+  {
     who: "Alex Jones",
     date: "November 20, 2026",
     claim: "\u201CCHATGPT Confirms DHS/PENTAGON/FEMA Has Begun The National Forced Consolidation Of Emergency Food Stocks! Top Storable Food Companies Told To CEASE SALES TO THE AMERICAN PEOPLE Ahead Of A Major Foreseen Potential Crisis\u201D \u2014 and \u201Cour top food suppliers were ordered by the federal government to sell the remaining [food to the government].\u201D",

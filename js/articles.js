@@ -21,6 +21,18 @@
 
 const ARTICLES = [
   {
+    slug: "loomer-el-sayed-operative",
+    kicker: "Freedom Watch",
+    title: "Senator-Elect Is a Secret Operative, Pledge Reveals; the Pledge, Fact-Checkers Note, Was Not a Pledge",
+    excerpt: "Laura Loomer says Senator-elect Abdul El-Sayed is a Muslim Brotherhood operative who \u201Csigned a literal pledge.\u201D The statement backed an elected president, he disavowed the group on camera, and PolitiFact rated the claim Pants on Fire.",
+    author: "Chip Hollister",
+    date: "November 21, 2026",
+    art: "art-purple",
+    glyph: "\u1F50D",
+    tags: ["michigan", "senate", "fact checks"],
+    sample: false
+  },
+  {
     slug: "ukraine-started-it",
     kicker: "Freedom Watch",
     title: "Ukraine Started the War It Was Invaded In, Internet Concludes; the Invading, Records Show, Was Russia\u2019s",
