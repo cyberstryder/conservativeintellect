@@ -15,6 +15,18 @@
 
 const LIES = [
   {
+    who: "Alex Jones",
+    date: "November 20, 2026",
+    claim: "\u201CCHATGPT Confirms DHS/PENTAGON/FEMA Has Begun The National Forced Consolidation Of Emergency Food Stocks! Top Storable Food Companies Told To CEASE SALES TO THE AMERICAN PEOPLE Ahead Of A Major Foreseen Potential Crisis\u201D \u2014 and \u201Cour top food suppliers were ordered by the federal government to sell the remaining [food to the government].\u201D",
+    context: "Posted on X, November 20, 2026, building on the Pentagon\u2019s real FORTRESS base-resilience program, amid a week of viral 90-day-blackout / stockpiling rumors that administration officials had publicly dismissed on November 15\u201316.",
+    reality: "FORTRESS, announced September 30, 2026 (not \u201Cthree weeks\u201D before the post), is a plan for military bases to operate independently for 90 days \u2014 not an order to civilians and not a consolidation of the public food supply. No DHS/FEMA cease-sales order, company statement, or reputable report of one exists; the only source is Jones\u2019s own outlet. FEMA\u2019s Ready.gov guidance still says several days of food and water, and DHS Secretary Mullin (\u201CI\u2019m not stockpiling\u2026 panic\u2026 is unfounded,\u201D Nov 15) and Vice President Vance (\u201CWe don\u2019t see a crisis coming down,\u201D Nov 16) said the opposite of a foreseen-crisis food seizure on the record days earlier.",
+    sources: [
+      { label: "Ready.gov \u2014 Build A Kit", url: "https://www.ready.gov/kit" },
+      { label: "CNN \u2014 Trump administration dismisses crisis fears, Nov 17, 2026", url: "https://www.cnn.com/2026/11/17/politics/vance-mullin-infrastructure-crisis-fears-intl-hnk" },
+      { label: "The Despoiler \u2014 Fortress America, Fortress Pantry?", url: "https://despoiler.news/fortress-america-90-day-number" }
+    ]
+  },
+  {
     who: "Mike Lindell",
     date: "November 19, 2026",
     claim: "\u201CWe\u2019ve uncovered thousands of examples of vote counts going BACKWARDS and hundreds of cases where reported votes exceed the number of voters\u201D \u2014 and \u201CTHEY STOLE TEXAS.\u201D",

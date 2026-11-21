@@ -21,6 +21,18 @@
 
 const ARTICLES = [
   {
+    slug: "jones-chatgpt-food-consolidation",
+    kicker: "Freedom Watch",
+    title: "ChatGPT Confirms Government Is Taking All the Emergency Food, Reports Broadcaster",
+    excerpt: "Alex Jones says ChatGPT confirmed FEMA is seizing all the emergency food and companies were told to stop selling to the public. FORTRESS is a bases-only plan from September 30; FEMA still says several days.",
+    author: "Chip Hollister",
+    date: "November 20, 2026",
+    art: "art-red",
+    glyph: "\u2691",
+    tags: ["emergency food", "chatbots", "fema"],
+    sample: false
+  },
+  {
     slug: "lindell-sues-counting-texas",
     kicker: "Freedom Watch",
     title: "Pillow Magnate Sues Counting Itself After Texas Votes Go \u201cBackwards\u201d All the Way to a Typo",
