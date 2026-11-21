@@ -21,6 +21,18 @@
 
 const ARTICLES = [
   {
+    slug: "massie-14500-month-no-show",
+    kicker: "Freedom Watch",
+    title: "House Adjourns Early for Lack of Members, Then Begs Members to Show Up",
+    excerpt: "The House canceled Friday\u2019s votes and adjourned until November 30 because too few members were in town \u2014 then the Speaker wrote a letter begging them to come back. They still collect $14,500 a month.",
+    author: "Chip Hollister",
+    date: "November 21, 2026",
+    art: "art-navy",
+    glyph: "\u1F3DB",
+    tags: ["congress", "attendance", "paychecks"],
+    sample: false
+  },
+  {
     slug: "massie-hold-our-beer",
     kicker: "Freedom Watch",
     title: "Voters Asked for Lower Prices, Peace, and the Epstein Files; Congress Heard \u201cHold Our Beer\u201d",
