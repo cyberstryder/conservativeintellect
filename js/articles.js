@@ -21,6 +21,18 @@
 
 const ARTICLES = [
   {
+    slug: "massie-hold-our-beer",
+    kicker: "Freedom Watch",
+    title: "Voters Asked for Lower Prices, Peace, and the Epstein Files; Congress Heard \u201cHold Our Beer\u201d",
+    excerpt: "Rep. Thomas Massie posted the exchange himself: voters asked for lower prices, an end to the war, and the Epstein files \u2014 Congress answered with one December bill that does the opposite, then adjourns early for Christmas.",
+    author: "Chip Hollister",
+    date: "November 20, 2026",
+    art: "art-green",
+    glyph: "\u1F37A",
+    tags: ["congress", "epstein files", "christmas"],
+    sample: false
+  },
+  {
     slug: "jones-chatgpt-food-consolidation",
     kicker: "Freedom Watch",
     title: "ChatGPT Confirms Government Is Taking All the Emergency Food, Reports Broadcaster",
