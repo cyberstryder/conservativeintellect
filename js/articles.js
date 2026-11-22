@@ -21,6 +21,18 @@
 
 const ARTICLES = [
   {
+    slug: "spacex-only-rocket",
+    kicker: "Freedom Watch",
+    title: "SpaceX Is the Only Company That Can Launch Things, Internet Declares; Space Force, Which Just Paid Three Companies $13.7 Billion to Launch Things, Is Surprised",
+    excerpt: "\u201cSpaceX is the only capable launch provider,\u201d the internet declares \u2014 and government contracts \u201care not that significant\u201d to it. The Space Force paid three providers $13.7B for its toughest launches, and SpaceX alone holds $22B in government contracts.",
+    author: "Biff Carrington",
+    date: "November 22, 2026",
+    art: "art-teal",
+    glyph: "\u1F680",
+    tags: ["spacex", "space force", "reddit"],
+    sample: false
+  },
+  {
     slug: "loomer-el-sayed-operative",
     kicker: "Freedom Watch",
     title: "Senator-Elect Is a Secret Operative, Pledge Reveals; the Pledge, Fact-Checkers Note, Was Not a Pledge",
