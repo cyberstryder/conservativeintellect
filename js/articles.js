@@ -21,6 +21,18 @@
 
 const ARTICLES = [
   {
+    slug: "taqiyya-license-to-lie",
+    kicker: "Freedom Watch",
+    title: "Iran's Religion Lets It Lie to Infidels Anytime It Wants, Internet Explains; the Doctrine, Scholars Note, Is About Not Getting Killed for Your Faith",
+    excerpt: "\u201cDoesn't matter what deals they make \u2014 their religion allows them to lie to Infidels anytime they want.\u201d The doctrine is taqiyya: concealing your faith under threat of death or injury, with a scholarly threshold of death, loss of limb, or tremendous suffering.",
+    author: "Chip Hollister",
+    date: "November 22, 2026",
+    art: "art-purple",
+    glyph: "\u263D",
+    tags: ["iran", "taqiyya", "reddit"],
+    sample: false
+  },
+  {
     slug: "spacex-only-rocket",
     kicker: "Freedom Watch",
     title: "SpaceX Is the Only Company That Can Launch Things, Internet Declares; Space Force, Which Just Paid Three Companies $13.7 Billion to Launch Things, Is Surprised",
