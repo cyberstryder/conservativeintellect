@@ -15,6 +15,18 @@
 
 const LIES = [
   {
+    who: "Alex Jones",
+    date: "November 22, 2026",
+    claim: "\u201cAlmost 95% [of Somalis in Minnesota] Are On Some Form Of Welfare\u201d \u2014 and Somalis have \u201cCompletely\u201d taken over Minnesota and own it \u201cLock, Stock & Barrel.\u201d",
+    context: "Posted on X, November 22, 2026, amplifying President Trump\u2019s latest remarks on Minnesota\u2019s Somali community.",
+    reality: "No dataset reaches 95%. The Center for Immigration Studies\u2019 ACS analysis puts 81% of Somali immigrant households (89% of households with children) on at least one benefit; Minnesota\u2019s state demographer found 84% of Somali-ancestry individuals received assistance, mostly Medicaid (78%), with only 8% on public-assistance income. The community is ~108,000 people, about 2% of Minnesota, 95% of them U.S. citizens and 58% U.S.-born \u2014 and 72.2% of those 16+ are in the labor force (PolitiFact rated the companion \u201cdon\u2019t work\u201d claim Pants on Fire).",
+    sources: [
+      { label: "FactCheck.org \u2014 Probing Trump\u2019s Verbal Attack on Somalis (Dec 2025)", url: "https://www.factcheck.org" },
+      { label: "Center for Immigration Studies \u2014 Somali Immigrants in Minnesota (Dec 2025)", url: "https://cis.org" },
+      { label: "PolitiFact \u2014 Trump wrong that 92% of Minnesota Somalis don\u2019t work (Feb 2026)", url: "https://www.politifact.com" }
+    ]
+  },
+  {
     who: "Laura Loomer",
     date: "November 21, 2026",
     claim: "\u201CAbdul El-Sayed is a Muslim Brotherhood operative. He signed a literal pledge in support of the Muslim Brotherhood, a designated Islamic terrorist organization.\u201D",

@@ -21,6 +21,18 @@
 
 const ARTICLES = [
   {
+    slug: "somali-95-percent-takeover",
+    kicker: "Freedom Watch",
+    title: "Somalis Have \u201cCompletely\u201d Taken Over Minnesota and Almost 95% Are on Welfare, Internet Announces; the Takeover, Records Show, Amounts to 2% of the State, and the 95% Appears in No Dataset Anywhere",
+    excerpt: "Alex Jones says Somalis own Minnesota \u201clock, stock & barrel\u201d and almost 95% are on welfare. No dataset reaches 95% \u2014 the highest real figure is 89% of households with children on any benefit, mostly Medicaid \u2014 and the community is ~108,000 people, 2% of the state, 95% of them U.S. citizens.",
+    author: "Biff Carrington",
+    date: "November 22, 2026",
+    art: "art-red",
+    glyph: "\u2691",
+    tags: ["minnesota", "immigration", "fact checks"],
+    sample: false
+  },
+  {
     slug: "taqiyya-license-to-lie",
     kicker: "Freedom Watch",
     title: "Iran's Religion Lets It Lie to Infidels Anytime It Wants, Internet Explains; the Doctrine, Scholars Note, Is About Not Getting Killed for Your Faith",
