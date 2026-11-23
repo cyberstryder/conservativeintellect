@@ -20,6 +20,7 @@
    ============================================================ */
 
 const ARTICLES = [
+  {"slug": "secret-space-weapons", "headline": "America and the Soviets Secretly Put Weapons in Space in the '80s, Internet Is Quite Sure; the Secret Shuttle Missions, Records Show, Were Hauling Spy Satellites, and the Star Wars Program Never Left the Ground", "dek": "The internet is quite sure both superpowers secretly parked weapons in orbit in the '80s, citing a strong feeling and a Clint Eastwood movie. The secret Shuttle missions carried spy and phone satellites, SDI never deployed a single weapon, and Space Cowboys is fiction.", "category": "freedom-watch", "categoryLabel": "Freedom Watch", "author": "Biff Carrington", "date": "2026-11-23", "dateLabel": "Nov 23, 2026", "readTime": "4 min read", "glyph": "🛰", "tags": ["Space", "Cold War", "Reddit"], "sample": false},
   {
     slug: "us-pays-world-meds",
     kicker: "Freedom Watch",
