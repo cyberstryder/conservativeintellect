@@ -21,6 +21,18 @@
 
 const ARTICLES = [
   {
+    slug: "us-pays-world-meds",
+    kicker: "Freedom Watch",
+    title: "America Pays for All the World's Medicine and All Its Research, Internet Announces; Europe, Which Spent \u20ac56 Billion on Drug Research Last Year, Is Surprised to Learn It Paid Nothing",
+    excerpt: "\u201cWe pay for all the med research,\u201d the internet announces, and foreign health systems would collapse without U.S. prices. U.S. brand prices are 2.78x abroad, but Europe spent \u20ac56.3B on pharma R&D in 2024, U.S. generics are cheaper than abroad, and the NHS has run on British taxes since 1948.",
+    author: "Chip Hollister",
+    date: "November 23, 2026",
+    art: "art-green",
+    glyph: "\u2695",
+    tags: ["healthcare", "drug prices", "reddit"],
+    sample: false
+  },
+  {
     slug: "somali-95-percent-takeover",
     kicker: "Freedom Watch",
     title: "Somalis Have \u201cCompletely\u201d Taken Over Minnesota and Almost 95% Are on Welfare, Internet Announces; the Takeover, Records Show, Amounts to 2% of the State, and the 95% Appears in No Dataset Anywhere",
