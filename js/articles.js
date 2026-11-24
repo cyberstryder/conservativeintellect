@@ -21,6 +21,17 @@
 
 const ARTICLES = [
   {
+    slug: "omar-investigation-1980",
+    headline: "Investigation of Ilhan Omar Began in 1980, Two Years Before She Was Born, Columnist Announces; the 1980, Records Show, Is the First Year on the Warrant's Date Window, and the Unsealed Documents Contain No Charges",
+    kicker: "Freedom Watch",
+    author: "Chip Hollister",
+    date: "November 24, 2026",
+    readMins: 4,
+    glyph: "\uD83D\uDCDC",
+    sample: false,
+    dek: "A PJ Media column says the Omar investigation 'actually started in 1980' \u2014 before she was born \u2014 as proof it isn't political. The 1980 is the warrant's evidence window; the unsealed filings contain no charges and a sealed affidavit."
+  },
+  {
     slug: "loomer-gaza-starvation-hoax",
     headline: "Starvation in Gaza Was \u201cOne Big Hoax,\u201d Internet Announces; the Famine, the Record Shows, Was Confirmed by the IPC, Counted by WHO, and Is Still in the Books",
     kicker: "Freedom Watch",

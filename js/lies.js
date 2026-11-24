@@ -15,6 +15,17 @@
 
 const LIES = [
   {
+    who: "Matt Margolis",
+    date: "November 24, 2026",
+    claim: "The investigation actually started in 1980 \u2014 before Omar was born \u2014 which is 'even more proof politics has nothing to do with this,' and 'the documents clearly show that the case against Omar is legitimate.'",
+    context: "PJ Media article on the Nov. 23, 2026 unsealing of the Omar search-warrant records, amplified as a top r/Conservative thread.",
+    reality: "1980 is the first year of the warrant's evidence window ('between 1980 to the present'), not the start date of an investigation. Omar was born Oct. 4, 1982 (Britannica), arrived in the U.S. in 1995, and became a citizen in 2000. The unsealed filings contain no charges, describe a pre-indictment investigation, redact every alleged offense, and keep the 67-page affidavit sealed \u2014 so they cannot 'clearly show' the case is legitimate, and a boilerplate date range proves nothing about politics either way.",
+    sources: [
+      { label: "New York Post: Omar search warrant cites alleged immigration fraud dating back to 1980 (Nov. 23, 2026)", url: "https://nypost.com" },
+      { label: "Encyclopaedia Britannica: Ilhan Omar (born Oct. 4, 1982)", url: "https://www.britannica.com" }
+    ]
+  },
+  {
     who: "Laura Loomer",
     date: "November 24, 2026",
     claim: "Turns out starvation in Gaza was one big hoax\u2026 They aren't exactly missing meals.",
