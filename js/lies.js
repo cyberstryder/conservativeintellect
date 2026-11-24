@@ -15,6 +15,23 @@
 
 const LIES = [
   {
+    "who": "Libs of TikTok",
+    "date": "November 23, 2026",
+    "claim": "“A federal appeals court just BLOCKED a Virginia law that restricts local police from cooperating with ICE and bans ICE from wearing masks.”",
+    "context": "Posted on X, November 23, 2026, reporting the Fourth Circuit's decision that day in United States v. Virginia.",
+    "reality": "The court split the two separate laws. It affirmed blocking only the mask/identification law as to federal officers, and it vacated the injunction against the cooperation law — letting Virginia enforce its limits on local ICE-cooperation (287(g)) agreements. The restriction the post says was blocked was in fact allowed to take effect.",
+    "sources": [
+      {
+        "label": "Bloomberg Law — Virginia Can't Enforce ICE Mask Ban, Fourth Circuit Says (Nov 2026)",
+        "url": "https://www.bloomberglaw.com"
+      },
+      {
+        "label": "Reason / Volokh Conspiracy — Fourth Circuit Upholds Virginia's Law Terminating Agreements to Help With Immigration Enforcement (Nov 2026)",
+        "url": "https://reason.com"
+      }
+    ]
+  },
+  {
     who: "Alex Jones",
     date: "November 22, 2026",
     claim: "\u201cAlmost 95% [of Somalis in Minnesota] Are On Some Form Of Welfare\u201d \u2014 and Somalis have \u201cCompletely\u201d taken over Minnesota and own it \u201cLock, Stock & Barrel.\u201d",
