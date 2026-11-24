@@ -15,6 +15,27 @@
 
 const LIES = [
   {
+    "who": "Kari Lake",
+    "date": "November 24, 2026",
+    "claim": "“80% of Americans support the work ICE is doing to remove illegal immigrants.”",
+    "context": "Posted on X, November 24, 2026, arguing that opposition to ICE is a small group of “paid radicals” manufacturing a false impression.",
+    "reality": "No national poll shows anything near 80% support for ICE's work. Marquette Law School (Jan. 2026) put approval of ICE's job performance at 40% of adults, with 60% disapproving; the 80% in that poll is Republicans only (independents 23%, Democrats 5%). Pew (fall 2026) found ICE 35% favorable / 56% unfavorable, and the NBC News midterm exit poll found 41% approval. The only other ~80% figure in the data is support for deporting violent criminals specifically — a different question.",
+    "sources": [
+      {
+        "label": "Marquette Law School Poll — national survey (Jan 2026)",
+        "url": "https://law.marquette.edu"
+      },
+      {
+        "label": "Pew Research Center — How Americans View Federal Agencies (Oct 2026)",
+        "url": "https://www.pewresearch.org"
+      },
+      {
+        "label": "NBC News Exit Poll (Nov 3, 2026)",
+        "url": "https://www.nbcnews.com"
+      }
+    ]
+  },
+  {
     "who": "Libs of TikTok",
     "date": "November 23, 2026",
     "claim": "“A federal appeals court just BLOCKED a Virginia law that restricts local police from cooperating with ICE and bans ICE from wearing masks.”",
