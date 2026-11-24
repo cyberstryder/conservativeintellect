@@ -21,6 +21,17 @@
 
 const ARTICLES = [
   {
+    slug: "loomer-gaza-starvation-hoax",
+    headline: "Starvation in Gaza Was \u201cOne Big Hoax,\u201d Internet Announces; the Famine, the Record Shows, Was Confirmed by the IPC, Counted by WHO, and Is Still in the Books",
+    kicker: "Freedom Watch",
+    author: "Chip Hollister",
+    date: "November 24, 2026",
+    readMins: 4,
+    glyph: "\u2696",
+    sample: false,
+    dek: "Laura Loomer declared starvation in Gaza 'one big hoax.' The IPC confirmed famine in August 2025, WHO counted 361 malnutrition deaths including 130 children, and 1.2 million people remain in food crisis."
+  },
+  {
     slug: "israel-only-republic",
     headline: "Israel Is the ONLY Republic in the Region, Internet Announces, Facts Not Fiction; Lebanon, Which Borders Israel and Is Literally Named the Lebanese Republic, Asks What It Is Then",
     kicker: "Freedom Watch",

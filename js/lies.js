@@ -15,6 +15,17 @@
 
 const LIES = [
   {
+    who: "Laura Loomer",
+    date: "November 24, 2026",
+    claim: "Turns out starvation in Gaza was one big hoax\u2026 They aren't exactly missing meals.",
+    context: "Posted on X, November 24, 2026, dismissing documented starvation in Gaza on the ground that obesity is common in Palestinian Arab culture.",
+    reality: "The IPC \u2014 the international famine-classification system \u2014 confirmed famine in Gaza Governorate on August 22, 2025, with over 500,000 people in Phase 5, 39% going days without eating, and over 12,000 children acutely malnourished in July 2025 alone. WHO reported 361 malnutrition deaths by September 5, 2025, including 130 children. The famine classification was lifted December 19, 2025 after ceasefire aid scale-up, and the July 2026 IPC still counted 1.2 million people in Crisis-level food insecurity or worse. Pre-war adult obesity (26.8%) coexists with undernutrition and does not measure wartime food access.",
+    sources: [
+      { label: "IPC / FAO-UNICEF-WFP-WHO: Famine confirmed for first time in Gaza (Aug. 22, 2025)", url: "https://www.ipcinfo.org" },
+      { label: "WHO: Public Health Situation Analysis, occupied Palestinian territory (September 2025)", url: "https://www.who.int" }
+    ]
+  },
+  {
     "who": "Kari Lake",
     "date": "November 24, 2026",
     "claim": "“80% of Americans support the work ICE is doing to remove illegal immigrants.”",
