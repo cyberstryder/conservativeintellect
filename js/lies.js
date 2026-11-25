@@ -15,6 +15,17 @@
 
 const LIES = [
   {
+    who: "Donald Trump",
+    date: "November 24, 2026",
+    claim: "Just days ago, the Gov. of California, Gavin Newsom, granted clemency & mercy to 548 of the most EVIL monsters...",
+    context: "Quoted by the White House (@WhiteHouse) on X, November 24, 2026, at an event standing with victims' families condemning Newsom's mass commutation.",
+    reality: "Newsom announced the clemency on November 5, 2026 \u2014 19 days earlier, not 'just days ago.' The clemency commutes death sentences to life in prison without the possibility of parole: no one is released or paroled. And it has not simply been 'granted' for most of the 548 \u2014 382 of them (nearly 70%) were convicted of more than one felony and require California Supreme Court approval first; only 166 can be commuted by the governor alone.",
+    sources: [
+      { label: "USA Today: Newsom commutes California death sentences for 548 people (Nov. 5, 2026)", url: "https://www.usatoday.com" },
+      { label: "Death Penalty Information Center: Largest Mass Commutation in U.S. History (Nov. 5, 2026)", url: "https://deathpenaltyinfo.org" }
+    ]
+  },
+  {
     who: "Matt Margolis",
     date: "November 24, 2026",
     claim: "The investigation actually started in 1980 \u2014 before Omar was born \u2014 which is 'even more proof politics has nothing to do with this,' and 'the documents clearly show that the case against Omar is legitimate.'",

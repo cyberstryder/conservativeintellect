@@ -21,6 +21,17 @@
 
 const ARTICLES = [
   {
+    slug: "newsom-548-clemency",
+    headline: "Newsom Granted 'Clemency & Mercy' to 548 of the Most Evil Monsters, President Announces; the Clemency, Records Show, Sends Every One of Them to Prison for Life Without Parole, Was Announced 19 Days Ago, and 382 of the 548 Still Need a Court's Permission",
+    kicker: "Freedom Watch",
+    author: "Biff Carrington",
+    date: "November 24, 2026",
+    readMins: 4,
+    glyph: "\u26D3",
+    sample: false,
+    dek: "The President says Newsom 'just days ago' granted mercy to 548 death-row prisoners. The Nov. 5 order commutes their sentences to life without parole \u2014 nobody is released \u2014 and 382 of the 548 still need California Supreme Court approval."
+  },
+  {
     slug: "omar-investigation-1980",
     headline: "Investigation of Ilhan Omar Began in 1980, Two Years Before She Was Born, Columnist Announces; the 1980, Records Show, Is the First Year on the Warrant's Date Window, and the Unsealed Documents Contain No Charges",
     kicker: "Freedom Watch",
