@@ -21,6 +21,17 @@
 
 const ARTICLES = [
   {
+    slug: "reddit-gaza-population-grows",
+    headline: "Gaza's Population \"Has Grown Every Year Since 1960,\" Forum Announces; the Bureau That Counts It, Records Show, Has Recorded Two Straight Years of Decline \u2014 Down 10.6% to 2.13 Million",
+    kicker: "Freedom Watch",
+    author: "Chip Hollister",
+    date: "November 25, 2026",
+    readMins: 4,
+    glyph: "\uD83D\uDCC9",
+    sample: false,
+    dek: "A top r/Conservative comment says Gaza's population \"has grown every year since 1960.\" The Palestinian Central Bureau of Statistics recorded a ~6% fall in 2024 and a 10.6% two-year decline to 2.13 million; the circulating growth figures are pre-war projections."
+  },
+  {
     slug: "posobiec-pfizer-522000",
     headline: "Pfizer Shots \"Linked to 331,500\u2013522,000 American Deaths,\" Commentator Announces; the Study, Records Show, Compared Pfizer to Moderna, Attributed No Deaths to Either Vaccine, and Never Estimated Any Such Thing",
     kicker: "Freedom Watch",
