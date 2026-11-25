@@ -21,6 +21,17 @@
 
 const ARTICLES = [
   {
+    slug: "jones-bristol-2014-recycled",
+    headline: "Seven Somali Men \u201cJust Convicted\u201d in Bristol, Broadcaster Announces; the Convictions, Court Records Show, Were Handed Down in November 2014, and the 40 Years Was All Seven Sentences Added Together",
+    kicker: "Freedom Watch",
+    author: "Biff Carrington",
+    date: "November 25, 2026",
+    readMins: 4,
+    glyph: "\uD83D\uDCC5",
+    sample: false,
+    dek: "Alex Jones announced seven Somali men 'just convicted' in Bristol. Operation Brooke was convicted and sentenced in November 2014 \u2014 twelve years ago \u2014 and the 40 years was the combined total of seven sentences of 2 to 11 years."
+  },
+  {
     slug: "newsom-548-clemency",
     headline: "Newsom Granted 'Clemency & Mercy' to 548 of the Most Evil Monsters, President Announces; the Clemency, Records Show, Sends Every One of Them to Prison for Life Without Parole, Was Announced 19 Days Ago, and 382 of the 548 Still Need a Court's Permission",
     kicker: "Freedom Watch",

@@ -15,6 +15,17 @@
 
 const LIES = [
   {
+    who: "Alex Jones",
+    date: "November 25, 2026",
+    claim: "Seven Somalians just convicted to be imprisoned for 40 years for sex slaving- trafficking girls aged 13 to 17 years old across Bristol England.",
+    context: "Posted on X, November 25, 2026, with links, as current news; part of a wider recirculation of the same 2014 case's details across social media in the preceding days.",
+    reality: "The seven men were convicted on November 26, 2014, and sentenced on November 28, 2014, in Operation Brooke at Bristol Crown Court \u2014 twelve years before the post. The '40 years' was the combined total of all seven sentences (40 years, six months), which individually ran from 2 to 11 years; no one was sentenced to 40 years. A separate Bristol case from November 2025 involved seven different men who were charged, not convicted.",
+    sources: [
+      { label: "BBC News: Bristol sex gangs jailed for grooming girls (Nov. 27, 2014)", url: "https://www.bbc.com" },
+      { label: "The Guardian: 13 men jailed over Bristol sex-abuse ring (Nov. 28, 2014)", url: "https://www.theguardian.com" }
+    ]
+  },
+  {
     who: "Donald Trump",
     date: "November 24, 2026",
     claim: "Just days ago, the Gov. of California, Gavin Newsom, granted clemency & mercy to 548 of the most EVIL monsters...",
