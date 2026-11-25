@@ -15,6 +15,50 @@
 
 const LIES = [
   {
+    who: "Jack Posobiec",
+    date: "November 25, 2026",
+    claim: "A government study reportedly found a catastrophic loss of life associated with COVID. Examining data from an entire state, the study estimates that Pfizer's mRNA shots alone may have been linked to 331,500\u2013522,000 American deaths.",
+    context: "Posted on X, November 25, 2026, linking to Nicolas Hulscher's explanation of the November 4, 2026 Florida Pfizer-vs.-Moderna mortality study (Levi et al., Global Epidemiology).",
+    reality: "The study compared Pfizer recipients only to Moderna recipients \u2014 981,411 matched pairs, 7,690 vs. 5,519 deaths, hazard ratio 1.4 \u2014 with no unvaccinated group; it attributed no deaths to either vaccine and estimated no national toll. The 331,500 figure is Hulscher's extrapolation of the 221-per-100,000 between-vaccine gap across an assumed 150 million recipients, and 522,000 comes from substituting an assumed 0.87% baseline mortality for the study's measured 0.562%. FactCheck.org and CIDRAP both conclude the study cannot establish that Pfizer caused the deaths.",
+    sources: [
+      { label: "FactCheck.org (SciCheck): Florida vaccine study", url: "https://www.factcheck.org" },
+      { label: "CIDRAP, University of Minnesota", url: "https://www.cidrap.umn.edu" }
+    ]
+  },
+  {
+    who: "Benny Johnson",
+    date: "November 25, 2026",
+    claim: "2023 Chemical Detonation in East Palestine: -No Federal agencies on ground -No alerts to residents - No evacuations \u2026 -Tried to bribe residents to stay quiet",
+    context: "Posted on X, November 25, 2026, contrasting the federal response to the Army detonation in Middletown, Iowa with the response to the February 2023 East Palestine derailment.",
+    reality: "The U.S. EPA mobilized the night of the derailment and was monitoring air by February 4, 2023; troopers went door to door alerting residents within the first hour; a village evacuation order was enacted February 4, a one-mile evacuation ordered February 5, expanded February 6, and lifted February 8. The only payments on record are Norfolk Southern's $1,000 inconvenience/relocation payments and reimbursements \u2014 disaster relief with no documented condition of silence.",
+    sources: [
+      { label: "U.S. EPA: East Palestine Train Derailment Site", url: "https://www.epa.gov" },
+      { label: "IRS: East Palestine disaster relief payments", url: "https://www.irs.gov" }
+    ]
+  },
+  {
+    who: "DC_Draino (Rogan O'Handley)",
+    date: "November 25, 2026",
+    claim: "The USAID files just dropped and it shows Democrats spent billions of our tax dollars on censoring free speech. After USAID funding stopped, right wing candidates have won in Bolivia, Chile, Colombia, Costa Rica, Ecuador, Honduras, and Peru.",
+    context: "Posted on X, November 25, 2026, on the release of the USAID Files, with companion posts the same morning repeating the election claim.",
+    reality: "The seven election results are real, but the causal story is impossible in three of them: Bolivia expelled USAID in 2013 and the Chile and Costa Rica missions closed in 1996, so there was no funding to stop. Audited explicitly-disinformation programs total roughly $24.6 million \u2014 not billions spent censoring speech \u2014 and the left's vote share fell hardest (avg. 19 points) where USAID spent least (under $0.35/person), the opposite of the post's mechanism.",
+    sources: [
+      { label: "Hudson Institute: Who's Afraid of USAID?", url: "https://www.hudson.org" },
+      { label: "ForeignAssistance.gov", url: "https://foreignassistance.gov" }
+    ]
+  },
+  {
+    who: "Benny Johnson",
+    date: "November 25, 2026",
+    claim: "The real Constitutional crisis is finding out someone who isn't even a legitimate U.S. citizen has been serving in Congress. (The 'someone' is Rep. Ilhan Omar.)",
+    context: "Posted on X, November 25, 2026, as a 'flashback' to Omar's criticism of the USAID shutdown, with media attached.",
+    reality: "Ilhan Omar became a U.S. citizen in 2000 at age 17, after arriving as a refugee granted asylum in 1995 \u2014 a naturalized citizen for 25 years, nineteen of them before her first House term, which constitutionally requires only seven. No court has found her citizenship invalid and no denaturalization judgment exists. A 2026 Justice Department investigation into her family's documentation is an unproven allegation \u2014 its unsealed filings contain no charges \u2014 not a finding that she is not a citizen.",
+    sources: [
+      { label: "Encyclopaedia Britannica: Ilhan Omar", url: "https://www.britannica.com" },
+      { label: "Biographical Directory of the United States Congress", url: "https://bioguide.congress.gov" }
+    ]
+  },
+  {
     who: "Alex Jones",
     date: "November 25, 2026",
     claim: "Seven Somalians just convicted to be imprisoned for 40 years for sex slaving- trafficking girls aged 13 to 17 years old across Bristol England.",

@@ -21,6 +21,50 @@
 
 const ARTICLES = [
   {
+    slug: "posobiec-pfizer-522000",
+    headline: "Pfizer Shots \"Linked to 331,500\u2013522,000 American Deaths,\" Commentator Announces; the Study, Records Show, Compared Pfizer to Moderna, Attributed No Deaths to Either Vaccine, and Never Estimated Any Such Thing",
+    kicker: "Freedom Watch",
+    author: "Biff Carrington",
+    date: "November 25, 2026",
+    readMins: 5,
+    glyph: "\uD83D\uDC89",
+    sample: false,
+    dek: "Jack Posobiec says a government study estimates Pfizer's shots were linked to 331,500\u2013522,000 deaths. The study compared Pfizer to Moderna, attributed no deaths to either vaccine, and estimated no national toll \u2014 the figures are extrapolations."
+  },
+  {
+    slug: "benny-east-palestine-no-evacuations",
+    headline: "No Federal Agencies, No Alerts, and No Evacuations in East Palestine, Commentator Announces; the Record Shows the EPA Mobilized That Night, Troopers Went Door to Door, and an Evacuation Order Stood for Four Days",
+    kicker: "Freedom Watch",
+    author: "Chip Hollister",
+    date: "November 25, 2026",
+    readMins: 5,
+    glyph: "\uD83D\uDE82",
+    sample: false,
+    dek: "Benny Johnson lists 'No Federal agencies, No alerts, No evacuations' for East Palestine. The EPA mobilized the night of the derailment, troopers went door to door within the hour, and an evacuation order stood Feb. 4\u20138, 2023."
+  },
+  {
+    slug: "dc-draino-usaid-seven-countries",
+    headline: "Cutting USAID Elected Seven Right-Wing Presidents, Influencer Announces; Bolivia Expelled USAID in 2013, and the Chile and Costa Rica Offices Closed in 1996",
+    kicker: "Follow the Money",
+    author: "Chip Hollister",
+    date: "November 25, 2026",
+    readMins: 6,
+    glyph: "\uD83D\uDCB8",
+    sample: false,
+    dek: "DC_Draino credits the USAID cut with seven right-wing wins. Bolivia expelled USAID in 2013; Chile and Costa Rica's missions closed in 1996; audited disinformation programs total ~$24.6M, not billions \u2014 and the left fell hardest where USAID spent least."
+  },
+  {
+    slug: "benny-omar-legitimate-citizen",
+    headline: "Congresswoman \"Isn't Even a Legitimate U.S. Citizen,\" Commentator Announces; She Became a Citizen in 2000, Records Show, and Has Been One for 25 Years \u2014 19 of Them Before Her First Day in the House, Which Requires Seven",
+    kicker: "Freedom Watch",
+    author: "Chip Hollister",
+    date: "November 25, 2026",
+    readMins: 4,
+    glyph: "\uD83D\uDEC2",
+    sample: false,
+    dek: "Benny Johnson says Ilhan Omar 'isn't even a legitimate U.S. citizen.' She became one in 2000, at 17 \u2014 25 years ago, 19 of them before her first House term, which requires seven. No court has found otherwise."
+  },
+  {
     slug: "jones-bristol-2014-recycled",
     headline: "Seven Somali Men \u201cJust Convicted\u201d in Bristol, Broadcaster Announces; the Convictions, Court Records Show, Were Handed Down in November 2014, and the 40 Years Was All Seven Sentences Added Together",
     kicker: "Freedom Watch",
