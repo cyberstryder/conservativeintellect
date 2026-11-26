@@ -21,6 +21,17 @@
 
 const ARTICLES = [
   {
+    slug: "reddit-georgia-ag-zero-qualifications",
+    headline: "Georgia Elected a Commissioner With \"Literally Zero Qualifications,\" Forum Announces; the Farmer, Records Show, Founded a Farm, Trained in UGA Extension's Farmer Program, and Beat the Incumbent 54\u201346 \u2014 the Zero, It Turns Out, Was the Number of Qualifications the Commenter Checked",
+    kicker: "Freedom Watch",
+    author: "Biff Carrington",
+    date: "November 26, 2026",
+    readMins: 5,
+    glyph: "\uD83C\uDF3E",
+    sample: false,
+    dek: "A top r/Conservative comment says Georgia's new agriculture commissioner has \"literally zero qualifications\" and won because she is Black and a woman. The Georgia Farm Bureau's own pre-election guide lists Katherine Juhan-Arnold as a farmer, farm founder, and UGA Extension\u2013trained grower who beat the incumbent 54\u201346."
+  },
+  {
     slug: "dc-draino-parade-riots",
     headline: "Parade Postponed to Hide Riots Nobody Has Seen, Influencer Bets; the Storm, Records Show, Filed a High Wind Warning, Gusts to 65, and Held a Press Conference",
     kicker: "Parade Restraint",
