@@ -15,6 +15,17 @@
 
 const LIES = [
   {
+    who: "Benny Johnson",
+    date: "November 25, 2026",
+    claim: "Democrats \"defended an MS-13 affiliated, wife beating, human trafficker\" \u2014 describing Kilmar Abrego Garcia, in a post announcing his voluntary departure from the United States.",
+    context: "Posted on X, November 25, 2026, on the news of Abrego Garcia's flight to Spain; DHS's own statement the same day used the same three labels.",
+    reality: "Abrego Garcia has never been convicted of a crime and never been charged with gang membership; the MS-13 claim rests on a 2019 police report citing an informant who placed him in a New York clique in a state he had never lived in. The only criminal charges ever filed against him, the Tennessee human-smuggling counts, were dismissed in May 2026 by a federal judge who found the prosecution vindictive. The abuse claims were civil protective-order petitions that produced no criminal charges and were dismissed without adjudication. The departure itself was real \u2014 the criminal r\u00E9sum\u00E9 attached to it is not.",
+    sources: [
+      { label: "USA Today: Abrego Garcia case", url: "https://www.usatoday.com" },
+      { label: "CNN: Judge dismisses charges against Abrego Garcia", url: "https://www.cnn.com" }
+    ]
+  },
+  {
     who: "Jack Posobiec",
     date: "November 25, 2026",
     claim: "A government study reportedly found a catastrophic loss of life associated with COVID. Examining data from an entire state, the study estimates that Pfizer's mRNA shots alone may have been linked to 331,500\u2013522,000 American deaths.",

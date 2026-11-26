@@ -21,6 +21,17 @@
 
 const ARTICLES = [
   {
+    slug: "benny-abrego-garcia-labels",
+    headline: "Departing Man Was an \"MS-13 Affiliated, Wife Beating, Human Trafficker,\" Commentator Announces; the Record, Checked at the Gate, Shows Zero Convictions, Zero Gang Charges, and a Smuggling Case a Federal Judge Threw Out as Vindictive",
+    kicker: "Freedom Watch",
+    author: "Biff Carrington",
+    date: "November 25, 2026",
+    readMins: 5,
+    glyph: "\u2708",
+    sample: false,
+    dek: "Benny Johnson calls Kilmar Abrego Garcia an \"MS-13 affiliated, wife beating, human trafficker.\" The record: never convicted of a crime, never charged with gang membership, and the only charges ever filed \u2014 Tennessee smuggling counts \u2014 were dismissed in May 2026 by a judge who found the prosecution vindictive."
+  },
+  {
     slug: "reddit-gaza-population-grows",
     headline: "Gaza's Population \"Has Grown Every Year Since 1960,\" Forum Announces; the Bureau That Counts It, Records Show, Has Recorded Two Straight Years of Decline \u2014 Down 10.6% to 2.13 Million",
     kicker: "Freedom Watch",
