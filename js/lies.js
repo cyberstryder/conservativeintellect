@@ -15,6 +15,28 @@
 
 const LIES = [
   {
+    who: "DC_Draino (Rogan O'Handley)",
+    date: "November 26, 2026",
+    claim: "Mamdani says he's postponing NYC's Thanksgiving day parade for the 1st time in over 100 years due to \"weather\". How much you want to bet it's actually because of these leftist riots that he doesn't want seen by the entire country?",
+    context: "Posted on X, November 26, 2026, the morning the 100th Macy's Thanksgiving Day Parade was to have stepped off, with a link attached as the only support for the riot claim.",
+    reality: "The parade was postponed \u2014 by Macy's, not unilaterally by the mayor \u2014 because of a documented nor'easter: the National Weather Service had a high wind warning and coastal flood warning in effect for New York City, with gusts forecast at 50\u201365 mph, against city rules (in place since a 1997 balloon accident put a spectator in a coma) that ground the giant balloons above 34 mph gusts. The move to Saturday was announced a day in advance at a public press conference with the NYPD Commissioner present. Coverage by Reuters, AP, CNN, USA Today, the Wall Street Journal, and the New York Post mentions no riots, protests, or disorder in connection with the decision.",
+    sources: [
+      { label: "Reuters: Macy's parade postponed", url: "https://www.reuters.com" },
+      { label: "USA Today: Macy's parade postponed to Saturday", url: "https://www.usatoday.com" }
+    ]
+  },
+  {
+    who: "Elon Musk",
+    date: "November 26, 2026",
+    claim: "Every child in America will receive two SpaceX shares, one from the company and one from me personally",
+    context: "Posted on X, November 26, 2026, the morning after SpaceX announced its Trump Accounts donation; 336,949 likes and 13.4 million impressions at the direct read.",
+    reality: "SpaceX's own announcement promises one share to every currently active Trump Account \u2014 an account only U.S.-citizen children under 18 with a Social Security number can have, which a parent or guardian must claim, and whose \"active\" count neither SpaceX nor the Treasury has published or defined. Non-citizen children in America get nothing. The second (matching) share cannot transfer until Musk's lockup expires in June 2027, and gifted shares generally cannot be sold for five years. The donation is real; \"every child in America\" is not what it says.",
+    sources: [
+      { label: "Reuters: Musk SpaceX shares pledge", url: "https://www.reuters.com" },
+      { label: "FOX Business: SpaceX Trump Accounts donation", url: "https://www.foxbusiness.com" }
+    ]
+  },
+  {
     who: "Benny Johnson",
     date: "November 25, 2026",
     claim: "Democrats \"defended an MS-13 affiliated, wife beating, human trafficker\" \u2014 describing Kilmar Abrego Garcia, in a post announcing his voluntary departure from the United States.",

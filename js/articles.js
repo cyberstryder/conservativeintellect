@@ -21,6 +21,28 @@
 
 const ARTICLES = [
   {
+    slug: "dc-draino-parade-riots",
+    headline: "Parade Postponed to Hide Riots Nobody Has Seen, Influencer Bets; the Storm, Records Show, Filed a High Wind Warning, Gusts to 65, and Held a Press Conference",
+    kicker: "Parade Restraint",
+    author: "Biff Carrington",
+    date: "November 26, 2026",
+    readMins: 4,
+    glyph: "\uD83C\uDF88",
+    sample: false,
+    dek: "DC_Draino bets the parade was postponed over scare-quoted \"weather\" to hide leftist riots. The NWS had a high wind warning up, gusts were forecast to 65 mph against a 34-mph balloon limit, Macy's announced the move at a public press conference \u2014 and no report mentions a riot."
+  },
+  {
+    slug: "musk-every-child-spacex-shares",
+    headline: "Every Child in America Will Receive Two SpaceX Shares, Billionaire Announces; His Own Company, in Its Own Announcement, Promised One Share to Every \"Currently Active Trump Account\" \u2014 a Citizens-Only Account Nobody Has Counted",
+    kicker: "Freedom Watch",
+    author: "Chip Hollister",
+    date: "November 26, 2026",
+    readMins: 4,
+    glyph: "\uD83D\uDE80",
+    sample: false,
+    dek: "Elon Musk says every child in America will receive two SpaceX shares. SpaceX's own announcement promises one share to every \"currently active Trump Account\" \u2014 a citizens-only account a parent must claim, whose active count is unpublished \u2014 with Musk's match arriving in June 2027."
+  },
+  {
     slug: "benny-abrego-garcia-labels",
     headline: "Departing Man Was an \"MS-13 Affiliated, Wife Beating, Human Trafficker,\" Commentator Announces; the Record, Checked at the Gate, Shows Zero Convictions, Zero Gang Charges, and a Smuggling Case a Federal Judge Threw Out as Vindictive",
     kicker: "Freedom Watch",
