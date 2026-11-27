@@ -21,6 +21,17 @@
 
 const ARTICLES = [
   {
+    slug: "reddit-europe-caliphate-france-flames",
+    headline: "Europe Is \"Well Down the Road of an Islamic Caliphate\" and France Is \"Literally Going Up in Flames,\" Forum Announces; the Caliphate, Records Show, Governs 6 Percent of Nobody, and the Fires Were Set by French Protesters Angry About the Price of Groceries",
+    kicker: "Freedom Watch",
+    author: "Chip Hollister",
+    date: "November 26, 2026",
+    readMins: 5,
+    glyph: "\u262A",
+    sample: false,
+    dek: "A top r/Conservative comment says Europe is \"well down the road of an Islamic caliphate\" and France is \"literally going up in flames.\" Pew puts Muslims at 6% of Europe and 9% of France, with the religiously unaffiliated France's projected 2070 majority \u2014 and the fires were cost-of-living protests."
+  },
+  {
     slug: "jones-uk-veterans-62-recall",
     headline: "Britain \"Puts 100,000 Veterans on Notice of Recall\" for War With Russia, Broadcaster Announces; the Letters, the Army's Own Chief Wrote in Them, Are \"Not Asking You to Return to Service,\" and the Bill's Age Is 65, Not 62",
     kicker: "Freedom Watch",
