@@ -21,6 +21,17 @@
 
 const ARTICLES = [
   {
+    slug: "jones-uk-veterans-62-recall",
+    headline: "Britain \"Puts 100,000 Veterans on Notice of Recall\" for War With Russia, Broadcaster Announces; the Letters, the Army's Own Chief Wrote in Them, Are \"Not Asking You to Return to Service,\" and the Bill's Age Is 65, Not 62",
+    kicker: "Freedom Watch",
+    author: "Chip Hollister",
+    date: "November 26, 2026",
+    readMins: 5,
+    glyph: "\uD83C\uDDEC\uD83C\uDDE7",
+    sample: false,
+    dek: "Alex Jones says the UK put 100,000 veterans on recall notice for war with Russia, with legislation to forcefully recall all veterans to age 62. The letters ask Strategic Reservists to update their details \u2014 \"not a mobilisation notice,\" per the MoD \u2014 and the bill raises the age to 65, for that reserve only, opt-in for existing veterans."
+  },
+  {
     slug: "reddit-party-switch-100-percent",
     headline: "The Party Switch Is a \"Lie\" and \"Virtually 100%\" of Republicans Backed Civil Rights, Forum Announces; the Roll Call, Records Show, Reads 80%, the One Switcher Has at Least Eight Colleagues, and the Historian Cited Hosts a Sports Show",
     kicker: "Freedom Watch",

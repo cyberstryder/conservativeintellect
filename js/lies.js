@@ -15,6 +15,17 @@
 
 const LIES = [
   {
+    who: "Alex Jones",
+    date: "November 26, 2026",
+    claim: "The U.K. has put 100,000 veterans on notice of military service recall in preparation for WAR with Russia. Legislation is in the final stages of passage that would forcefully recall all veterans up to age 62.",
+    context: "Posted on X, November 26, 2026, minutes after UK reporting of the MoD's Strategic Reserve letters, and followed one second later by a companion post calling the UK government \"occupied by enemies of the people.\"",
+    reality: "The ~100,000 letters ask Strategic Reserve members to update contact details and skills and invite them to volunteer for exercises; the Army chief's letter says \"we are not asking you to return to service,\" the Veterans Minister called it \"good housekeeping,\" and MoD guidance states such contact \"is not a mobilisation notice.\" The Armed Forces Bill proposes raising the maximum recall age from 55 to 65 (not 62), covers only the Strategic Reserve \u2014 most veterans have no recall liability \u2014 and under the government's proposal existing veterans would move to the new terms only by opting in, with effect from spring 2027.",
+    sources: [
+      { label: "GOV.UK: MoD Strategic Reserve guidance", url: "https://www.gov.uk" },
+      { label: "The Telegraph: veterans recall letters", url: "https://www.telegraph.co.uk" }
+    ]
+  },
+  {
     who: "Jack Posobiec",
     date: "November 26, 2026",
     claim: "Of course Mamdani cancelled the Macy's Day Parade for the first time in American history. The cultural vandalism is the point.",
