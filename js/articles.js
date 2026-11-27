@@ -21,6 +21,28 @@
 
 const ARTICLES = [
   {
+    slug: "reddit-party-switch-100-percent",
+    headline: "The Party Switch Is a \"Lie\" and \"Virtually 100%\" of Republicans Backed Civil Rights, Forum Announces; the Roll Call, Records Show, Reads 80%, the One Switcher Has at Least Eight Colleagues, and the Historian Cited Hosts a Sports Show",
+    kicker: "Freedom Watch",
+    author: "Biff Carrington",
+    date: "November 26, 2026",
+    readMins: 5,
+    glyph: "\uD83D\uDDF3",
+    sample: false,
+    dek: "A top r/Conservative comment says the party switch is a lie, \"virtually 100%\" of Republicans backed the 1964 Civil Rights Act, and only one Democrat ever switched. The roll call reads 80% and 82%, the switchers number at least nine, and the split was regional."
+  },
+  {
+    slug: "posobiec-mamdani-cancelled-parade",
+    headline: "Mayor Cancels Macy's Parade for First Time in American History, Commentator Announces; the Parade, Records Show, Steps Off Saturday, Was Cancelled Three Times in the 1940s, and Was Moved by the Store That Owns It",
+    kicker: "Parade Restraint",
+    author: "Chip Hollister",
+    date: "November 26, 2026",
+    readMins: 4,
+    glyph: "\uD83C\uDF88",
+    sample: false,
+    dek: "Jack Posobiec says Mamdani cancelled the Macy's parade for the first time in American history. Macy's postponed it to Saturday over a nor'easter \u2014 and the parade was cancelled in 1942, 1943 and 1944."
+  },
+  {
     slug: "reddit-georgia-ag-zero-qualifications",
     headline: "Georgia Elected a Commissioner With \"Literally Zero Qualifications,\" Forum Announces; the Farmer, Records Show, Founded a Farm, Trained in UGA Extension's Farmer Program, and Beat the Incumbent 54\u201346 \u2014 the Zero, It Turns Out, Was the Number of Qualifications the Commenter Checked",
     kicker: "Freedom Watch",

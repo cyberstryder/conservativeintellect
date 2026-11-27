@@ -15,6 +15,17 @@
 
 const LIES = [
   {
+    who: "Jack Posobiec",
+    date: "November 26, 2026",
+    claim: "Of course Mamdani cancelled the Macy's Day Parade for the first time in American history. The cultural vandalism is the point.",
+    context: "Posted on X, November 26, 2026, the day the 100th Macy's Thanksgiving Day Parade was to have stepped off, and repeated in two follow-ups within the hour.",
+    reality: "The parade was postponed, not cancelled \u2014 Macy's moved it to Saturday, November 28, at 8:30 a.m. ET. The decision was Macy's, made in consultation with city agencies and announced at a public press conference, because a nor'easter brought an NWS high wind warning with gusts forecast at 60\u201365 mph against city rules that ground the giant balloons above 34 mph gusts. Nor would a cancellation have been a first: the parade was suspended in 1942\u20131944 for World War II. Posobiec's own follow-up post seventeen minutes later described the event as \"postponed.\"",
+    sources: [
+      { label: "Reuters: Macy's parade postponed", url: "https://www.reuters.com" },
+      { label: "USA Today: Macy's parade postponed to Saturday", url: "https://www.usatoday.com" }
+    ]
+  },
+  {
     who: "DC_Draino (Rogan O'Handley)",
     date: "November 26, 2026",
     claim: "Mamdani says he's postponing NYC's Thanksgiving day parade for the 1st time in over 100 years due to \"weather\". How much you want to bet it's actually because of these leftist riots that he doesn't want seen by the entire country?",
