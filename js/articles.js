@@ -21,6 +21,17 @@
 
 const ARTICLES = [
   {
+    slug: "reddit-mamdani-confiscate-payback",
+    headline: "Mayor's Two Arrests Were \"Interfering With His Clearly Stated Plans to Confiscate Property,\" Forum Announces; the Plans, Records Show, Were Announced in 2026, the Arrests Were in 2021 and 2024, and the \"Confiscation\" Was a Lawsuit, a Court Administrator, and One Building Sale",
+    kicker: "Freedom Watch",
+    author: "Chip Hollister",
+    date: "November 27, 2026",
+    readMins: 5,
+    glyph: "\uD83C\uDFDB",
+    sample: false,
+    dek: "A top r/Conservative comment says Mamdani's two SRG arrests were for interfering with his \"clearly stated plans to confiscate property\" \u2014 so disbanding the unit is payback. The arrests were in 2021 and 2024; the transfer policy arrived in May 2026 and runs through courts, administrators, and a building sale."
+  },
+  {
     slug: "reddit-europe-caliphate-france-flames",
     headline: "Europe Is \"Well Down the Road of an Islamic Caliphate\" and France Is \"Literally Going Up in Flames,\" Forum Announces; the Caliphate, Records Show, Governs 6 Percent of Nobody, and the Fires Were Set by French Protesters Angry About the Price of Groceries",
     kicker: "Freedom Watch",
