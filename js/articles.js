@@ -21,6 +21,17 @@
 
 const ARTICLES = [
   {
+    slug: "reddit-iran-nuke-spaceport",
+    headline: "U.S., Israel Blew Up Iranian Nuke That Could Have Hit Europe, Forum Announces; the Nuke, Inspectors Note, Did Not Exist, the Missile Was a Satellite Rocket, and What Got Hit Was a Spaceport",
+    kicker: "Freedom Watch",
+    author: "Biff Carrington",
+    date: "November 28, 2026",
+    readMins: 5,
+    glyph: "\uD83D\uDE80",
+    sample: false,
+    dek: "A top r/Conservative thread says the U.S. and Israel blew up an Iranian nuke that could have hit Europe. The source reporting described damaged spaceports and a satellite rocket \"thought to be capable\" of carrying a warhead \u2014 and the IAEA says Iran has no nuclear weapon."
+  },
+  {
     slug: "reddit-mamdani-confiscate-payback",
     headline: "Mayor's Two Arrests Were \"Interfering With His Clearly Stated Plans to Confiscate Property,\" Forum Announces; the Plans, Records Show, Were Announced in 2026, the Arrests Were in 2021 and 2024, and the \"Confiscation\" Was a Lawsuit, a Court Administrator, and One Building Sale",
     kicker: "Freedom Watch",
