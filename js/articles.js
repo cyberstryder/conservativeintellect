@@ -21,6 +21,17 @@
 
 const ARTICLES = [
   {
+    slug: "reddit-jefferson-strongest-reason",
+    headline: "Thomas Jefferson Called Arms the Last Resort Against Tyranny, Forum Announces; Jefferson's Own Archivists Note He Never Wrote That \u2014 It First Appeared in Print in 1989, and the Real Quote It Rides In On Lost Its Land Clause and Never Became Law",
+    kicker: "Freedom Watch",
+    author: "Chip Hollister",
+    date: "November 28, 2026",
+    readMins: 5,
+    glyph: "\uD83D\uDCDC",
+    sample: false,
+    dek: "A top r/Conservative comment makes the Second Amendment case in Jefferson's words. Monticello files the famous \"strongest reason\" line as spurious \u2014 first in print in 1989 \u2014 and the genuine line it rides on is a 1776 draft that lost its land clause and never became law."
+  },
+  {
     slug: "reddit-iran-nuke-spaceport",
     headline: "U.S., Israel Blew Up Iranian Nuke That Could Have Hit Europe, Forum Announces; the Nuke, Inspectors Note, Did Not Exist, the Missile Was a Satellite Rocket, and What Got Hit Was a Spaceport",
     kicker: "Freedom Watch",
